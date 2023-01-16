@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#D1E5EA;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.helper-box{
+    width: 470px;
+    height: 460px;
+    box-shadow: 0px 22px 70px #C9E6ED;
+    border-radius: 30px;
+    background-color:  #FFFFFF;
+    ;
+}
+
+.helper-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.mail{
+    width: 410px;
+    height: 50px;
+    background-color: #FAFDFE;
+    border: 1px solid #D1EAF1;
+    box-shadow: 0px 2px 1px rgba(209, 234, 241, 0.25);
+    border-radius: 40px;
+    align-items: center;
+    
+}
+
+.password{
+    width: 410px;
+    height: 50px;
+    background-color: #FAFDFE;
+    border: 1px solid #D1EAF1;
+    box-shadow: 0px 2px 1px rgba(209, 234, 241, 0.25);
+    border-radius: 40px;
+    
+}
+.second-helper{
+   display: flex;
+   flex-direction: column;
+}
+
+.mail-text{
+    color: #000000;
+    padding-top: 29px;
+    padding-left: 22px;
+    padding-bottom: 14px;
+    font-size: 16px;
+    line-height: 16px;
+}
+.mail::placeholder{
+    position: absolute;
+    top: 14px;
+    left: 22px;
+    
+}
+.password::placeholder{
+    position: absolute;
+    top: 14px;
+    left: 22px;
+}
+.password-text{
+    color: #000000;
+    padding-top: 21px;
+    padding-left: 22px;
+    padding-bottom: 14px;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.password-recovery{
+    padding-top: 24px;
+    padding-left: 22px;
+    color: #1D519A;
+    text-decoration-line: underline;
+    font-weight: 500;
+    font-size: 16px;
+    padding-bottom: 39px;
+}
+
+.btn{
+    width: 410px;
+    height: 50px;
+    border: 1px solid #1D519A;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #1D519A;
+    
+}
+
+.card-bottom{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 61px;
+    margin-left: -3px;
+}
+.bottom-first{
+    font-size: 16px;
+    line-height: 16px;
+    font-style: normal;
+    color: #000000;
+}
+.bottom-second{
+    color: #1D519A;
+    font-size: 16px;
+    line-height: 16px;
+}
+.title{
+    display: block !important;
+}
+.title-text{
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #000000;
+    margin-top: 178px;
+}
+.btn:hover{
+background-color: #FFFFFF;
+}
